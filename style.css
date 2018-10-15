@@ -1,0 +1,70 @@
+body{
+    
+    background-color: #eeeeee;
+}
+
+.game-div{
+    width: auto;
+    background-color: white;
+    margin: 5px;
+}
+.img-div{
+    
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+#img1{
+    background-image: url(images/2048.png);
+}
+#img2{
+    background-image: url(images/2048-original.png);
+}#img3{
+    background-image: url(images/2048-yellow.png);
+}#img4{
+    background-image: url(images/flow-free.png);
+}#img5{
+    background-image: url(images/snake-vs-block.png);
+}#img6{
+    background-image: url(images/veg-memory.png);
+}
+.cont-div{
+    padding: 10px;
+}
+.free{
+    color: #76c890;
+}
+.game-name{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.game-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.game-website{
+    color:#7c7c7c;
+    font-size: 1em;
+    
+}
+.game-website:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.ratingstars{
+    color: #737373;
+    font-size:15px;
+
+}
+.main-divv{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.wrap-div{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
